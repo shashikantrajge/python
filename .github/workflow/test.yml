@@ -1,0 +1,16 @@
+name : shell commands
+
+on : [push]
+
+jobs :
+  run-shell-commands:
+    run-on: ubantu-latest
+    steps:
+      - name : eacho a string
+        run : echo "hello world"
+      - name : echo string
+        run : |
+          node -v
+          npm -v
+
+
