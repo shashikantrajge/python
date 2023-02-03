@@ -21,7 +21,7 @@ jobs:
     - name: build with gradle
       run: ./gradlew build
 
-    - name: Build and Push Ddocker image
+    - name: Build and Push Docker image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
          image: bn2021shashi/2023
