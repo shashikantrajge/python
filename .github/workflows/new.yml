@@ -2,13 +2,13 @@ name : shell commands
 
 on : [push]
 
-jobs :
+jobs:
   run-shell-commands:
     runs-on: ubantu-latest
     steps:
-      - name : eacho a string
-        run : echo "hello world"
-      - name : echo string
-        run : |
+      - name: eacho a string
+        run: echo "hello world"
+      - name: echo string
+        run: |
           node -v
           npm -v
