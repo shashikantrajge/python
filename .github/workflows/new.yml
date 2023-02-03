@@ -3,10 +3,10 @@ name : shell commands
 on:
   push:
     branches: [ main ]
-    
+
 jobs:
   run-shell-commands:
-    runs-on: ubantu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: eacho a string
         run: echo "hello world"
