@@ -18,8 +18,8 @@ jobs:
     #- name: grant execute permissions
     #  run: chmod +x gradlew
 
-    - name: build with gradle
-      run: ./gradlew build
+    #- name: build with gradle
+    #  run: ./gradlew build
 
     - name: Build and Push Docker image
       uses: mr-smithers-excellent/docker-build-push@v5
