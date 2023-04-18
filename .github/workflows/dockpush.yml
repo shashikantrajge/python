@@ -1,4 +1,4 @@
-name : dockpush
+name : dockerpush
 on:
   push:
     branches: [ main ]
